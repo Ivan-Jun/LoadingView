@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingView">
+        <attr name="icon_empty" format="reference" />
+        <attr name="icon_error" format="reference" />
+        <attr name="icon_error_net" format="reference" />
+        <attr name="text_empty" format="string" />
+        <attr name="text_error" format="string" />
+        <attr name="text_error_net" format="string" />
+    </declare-styleable>
+</resources>

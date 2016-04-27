@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="loading_bg">#FFFFFF</color>
+    <color name="textColor_default">#333333</color>
+    <color name="textColor_light">#666666</color>
+    <color name="textColor_gray">#999999</color>
+    <color name="textColor_red">#E5004b</color>
+</resources>
