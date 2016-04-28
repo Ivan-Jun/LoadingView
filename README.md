@@ -4,7 +4,7 @@
 #####使用方式
 <img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/xml_screen.png" width="600px"  />
 <br>
-<img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/use_screen.png" alt="Drawing" width="320px" />
+<img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/use_screen.png" alt="Drawing" width="500px" />
 <br>
 #####效果图<br>
 <img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/loading_screen.png" alt="Drawing" width="320px" />
