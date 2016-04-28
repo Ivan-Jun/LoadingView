@@ -4,6 +4,9 @@
 #####使用方式
 <img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/xml_screen.png" width="600px"  />
 <br>
+`
+loading.setLoadingState(LoadingView.NET_ERROR);
+`
 效果图<br>
 <img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/loading_screen.png" alt="Drawing" width="320px" />
 <br>
