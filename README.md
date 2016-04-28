@@ -4,13 +4,7 @@
 #####使用方式
 <img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/xml_screen.png" width="600px"  />
 <br>
-`
-loading.setLoadingState(LoadingView.LOADING);//加载中<br>
-loading.setLoadingState(LoadingView.NET_ERROR);//网络异常<br>
-loading.setLoadingState(LoadingView.ERROR);//加载失败<br>
-loading.setLoadingState(LoadingView.EMPTY);//页面为空<br>
-loading.setLoadingState(LoadingView.NORMAL);//加载成功<br>
-`
+<img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/use_screen.png" alt="Drawing" width="320px" />
 <br>
 #####效果图<br>
 <img src="https://github.com/Ivan-Jun/LoadingView/blob/master/app/screen/loading_screen.png" alt="Drawing" width="320px" />
