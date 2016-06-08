@@ -39,7 +39,7 @@ public class LoadingView extends ViewSwitcher {
      */
     public final static int NORMAL = 4;
 
-    private InnerView loadingView;
+    private StateView loadingView;
     private int icon_error;
     private int icon_empty;
     private int icon_error_net;
@@ -61,7 +61,7 @@ public class LoadingView extends ViewSwitcher {
     }
 
     private void init() {
-        loadingView = new InnerView(getContext());
+        loadingView = new StateView(getContext());
         addView(loadingView);
         setLoadingState(LOADING);
         setDrawableEmptyRes(icon_empty);
@@ -200,14 +200,14 @@ public class LoadingView extends ViewSwitcher {
         void onButtonClick();
     }
 
-    private class InnerView extends RelativeLayout {
+    private class StateView extends RelativeLayout {
 
         private OnErrorClickListener onErrorClickListener;
         private OnButtonClickListener onButtonClickListener;
 
         private int state;
 
-        public InnerView(Context context) {
+        public StateView(Context context) {
             super(context);
             setLayoutParams(new ViewGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.MATCH_PARENT));
             LayoutInflater.from(context).inflate(R.layout.view_loading, this, true);
